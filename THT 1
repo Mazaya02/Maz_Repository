@@ -1,23 +1,19 @@
 // Take Home Test:
 // - Coba cari kasus sehari2 dimana kalian bisa menerapkan beberapa algoritma untuk memecahkan masalah tsb (selain kasus buku   telepon)
 1.Permainan tebak angka dari 1-100
-2.Mencari seekor ikan salmon dari sekumpulan ikan tuna total 100 ikan dengan jaring yang bisa menangkap 5 ikan sekaligus
 
 // - Bikin pseudocode untuk masing-masing algoritma
 Permainan tebak angka dari 1-100
-1.Pilih sebuah angka 1-100
+1 angka sekali tebak 
+1.Tebak sebuah angka 1-100
 2.If angka tersebut benar
 	print("benar")
 3.Else if angka tersebut salah
 	print("salah")
 	kembali ke 1.
-
-Mencari seekor ikan salmon dari sekumpulan ikan tuna total 100 ikan dengan jaring yang bisa menangkap 5 ikan sekaligus
-
-1.Tangkap ikan dengan jaring
-2.If ikan salmon tertangkap 
-	Selesai
-3.Else if ikan salmon belum tertangkap
-	kembali ke 1.
-4.Else 
-	Salmon tidak ada
+5 angka sekali tebak
+1.Tebak 5 angka 1-100
+2.If Terdapat angka yang benar
+	print("Anda Menang")
+3.Else if Tidak ada angka yang benar
+	print("Coba Lagi")
